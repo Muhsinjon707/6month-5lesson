@@ -1,0 +1,43 @@
+.header {
+    width: 1280px;
+
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.navEle {
+    transition: all .3 ease-in-out;
+}
+
+.navEle:hover a {
+    color: gray;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+.formButton1 {
+    padding: 12px 16px;
+    color: white;
+    border-radius: 8px;
+    background-color: #446163;
+}
+
+.formButton2 {
+    padding: 12px 16px;
+    color: white;
+    border-radius: 8px;
+    background-color: #6c2121;
+}

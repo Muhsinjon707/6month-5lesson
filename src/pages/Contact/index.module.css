@@ -1,0 +1,53 @@
+.contactForm {
+    margin: 100px auto;
+    width: 600px;
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+
+.area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.area label {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.area input {
+    padding: 8px 16px;
+    outline: transparent;
+}
+
+.area:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+
+.area textarea {
+    padding: 28px;
+    width: 100%;
+    outline: transparent;
+}
+
+.actionField {
+    display: flex;
+    gap: 20px;
+}
+
+.actionField button {
+    padding: 6px 12px;
+    color: white;
+    text-transform: uppercase;
+    outline: transparent;
+}

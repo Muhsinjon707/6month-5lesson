@@ -1,0 +1,26 @@
+.postDetail {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid;
+    padding: 30px;
+    border-radius: 15px;
+
+    margin: 100px auto;
+}
+
+.innerDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+}
+
+.backButton {
+    align-self: end;
+    width: 10%;
+    padding: 10px 15px;
+}

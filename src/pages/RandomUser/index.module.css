@@ -1,0 +1,38 @@
+.headTop {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.refreshButton {
+    padding: 15px 20px;
+    text-transform: uppercase;
+    background-color: blue;
+    color: white;
+}
+
+.backButton {
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+
+.card {
+    border: 1px solid;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+.userPicture {
+    width: 50%;
+}
+
+.userInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
